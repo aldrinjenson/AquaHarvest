@@ -1,5 +1,1 @@
-<svg width="93" height="87" viewBox="0 0 93 87" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="93" height="86.2745" rx="23.9651" fill="#E39B06"/>
-    <path d="M43.8037 59.3137C54.2267 59.3137 62.6763 50.8642 62.6763 40.4412C62.6763 30.0181 54.2267 21.5686 43.8037 21.5686C33.3807 21.5686 24.9312 30.0181 24.9312 40.4412C24.9312 50.8642 33.3807 59.3137 43.8037 59.3137Z" stroke="black" stroke-width="3.59477" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M57.1494 53.7869L68.0685 64.706" stroke="black" stroke-width="3.59477" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="87" fill="none" viewBox="0 0 93 87"><rect width="93" height="86.275" fill="#E39B06" rx="23.965"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.595" d="M43.8037 59.3137C54.2267 59.3137 62.6763 50.8642 62.6763 40.4412C62.6763 30.0181 54.2267 21.5686 43.8037 21.5686C33.3807 21.5686 24.9312 30.0181 24.9312 40.4412C24.9312 50.8642 33.3807 59.3137 43.8037 59.3137Z"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.595" d="M57.1494 53.7869L68.0685 64.706"/></svg>
