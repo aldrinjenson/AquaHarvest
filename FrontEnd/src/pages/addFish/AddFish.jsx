@@ -6,6 +6,7 @@ import "../addtank/Addtank.css";
 import { ThemeContext } from "../../App";
 import { Autocomplete } from "@mui/material";
 import { useNavigate } from "react-router";
+import axios from "axios";
 
 export default function Addfarm() {
   const [dis, setDis] = useState(false);
@@ -15,7 +16,19 @@ export default function Addfarm() {
     console.log(state);
     event.preventDefault();
     navigate("/sensor");
-    // axios.post('http://localhost:3000/getProgress',{})
+    axios
+      .post("http://localhost:3000/tank", {
+        userToken: 21,
+        tankName: state.tName,
+        fish: state.fname,
+        totalNumberOfFish: 1,
+      })
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log("Error: ", err);
+      });
   }
   const navigate = useNavigate();
   function handleChange(event) {
@@ -89,7 +102,7 @@ export default function Addfarm() {
           width: "90vw",
           boxShadow:
             "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2)",
-          backgroundColor: "white",
+          backgrouundColor: "white",
           top: "0",
         }}
       >

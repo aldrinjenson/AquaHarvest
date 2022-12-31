@@ -6,7 +6,7 @@ const TankSchema = new mongoose.Schema({
   fish: [
     {
       fishName: { type: String, required: true },
-      fishStartDate: { type: String, required: true },
+      // fishStartDate: { type: String, required: true },
     },
   ],
   totalNumberOfFish: { type: Number, required: true },

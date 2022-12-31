@@ -9,12 +9,12 @@ const Resources = () => {
       <Navbar />
       <div className="firstPara"></div>
       <div className="links">
-        <div className="flex flex-row">
-          Popular fishes near me
+        <div className="flex flex-row" style={{ flexWrap: "wrap" }}>
+          <h1>Popular fishes near me</h1>
           {fishes.map((fish) => (
             <div key={fish.name} className="LoadTank">
               <img src={fish.imgUrl} alt="" width={100} />
-              <h1>{fish.name}</h1>
+              <h4>{fish.name}</h4>
             </div>
           ))}
         </div>
